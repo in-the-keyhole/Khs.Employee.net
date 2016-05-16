@@ -1,0 +1,17 @@
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Khs.Employee.Contract.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Khs.Employee.Contract.pdb
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Data.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Internal.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Services.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\System.Fabric.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\ServiceFabricServiceModel.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Data.xml
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\Microsoft.ServiceFabric.Services.xml
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\System.Fabric.xml
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\bin\Debug\en-us\Microsoft.ServiceFabric.Internal.Strings.resources.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\obj\Debug\Khs.Employee.Contract.csprojResolveAssemblyReference.cache
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\obj\Debug\Khs.Employee.Contract.dll
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee.Contract\obj\Debug\Khs.Employee.Contract.pdb

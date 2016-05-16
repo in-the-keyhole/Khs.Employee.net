@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="Khs.EmployeeType" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+   <Parameters>
+      <Parameter Name="Api_InstanceCount" DefaultValue="-1" />
+      <Parameter Name="Service_MinReplicaSetSize" DefaultValue="2" />
+      <Parameter Name="Service_PartitionCount" DefaultValue="1" />
+      <Parameter Name="Service_TargetReplicaSetSize" DefaultValue="3" />
+   </Parameters>
+   <ServiceManifestImport>
+      <ServiceManifestRef ServiceManifestName="Khs.Employee.ApiPkg" ServiceManifestVersion="1.0.0" />
+      <ConfigOverrides />
+   </ServiceManifestImport>
+   <ServiceManifestImport>
+      <ServiceManifestRef ServiceManifestName="Ksh.Employee.ServicePkg" ServiceManifestVersion="1.0.0" />
+      <ConfigOverrides />
+   </ServiceManifestImport>
+   <DefaultServices>
+      <Service Name="Api">
+         <StatelessService ServiceTypeName="ApiType" InstanceCount="[Api_InstanceCount]">
+            <SingletonPartition />
+         </StatelessService>
+      </Service>
+      <Service Name="Service">
+         <StatefulService ServiceTypeName="ServiceType" TargetReplicaSetSize="[Service_TargetReplicaSetSize]" MinReplicaSetSize="[Service_MinReplicaSetSize]">
+            <UniformInt64Partition PartitionCount="[Service_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+         </StatefulService>
+      </Service>
+   </DefaultServices>
+</ApplicationManifest>

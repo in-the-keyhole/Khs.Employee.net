@@ -1,0 +1,1 @@
+c:\users\jim\documents\visual studio 2015\Projects\Khs.Employee\Khs.Employee\obj\x64\Debug\Khs.Employee.sfprojResolveAssemblyReference.cache
